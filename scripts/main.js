@@ -1,6 +1,5 @@
 import { series } from './data.js';
 var seriesTbody = document.getElementById('series');
-var serieSeleccionada = document.getElementById('serieSeleccionada');
 renderSeriesInTable(series);
 renderAverageSeasons(series);
 function renderSeriesInTable(series) {
